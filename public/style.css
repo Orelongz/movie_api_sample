@@ -1,0 +1,45 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+a:hover {
+  background: white;
+  color: steelblue;
+}
+
+.navbar {
+  background: steelblue;
+  position: relative;
+}
+
+.brand {
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+}
+
+.navbar ul li {
+  padding: 15px 0;
+  display: inline-block;
+}
+
+.center-content {
+  min-width: 300px;
+  margin: 10vh auto;
+  text-align: center;
+}
