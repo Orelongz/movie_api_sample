@@ -12,7 +12,6 @@ class Search extends Component {
   handleSearch(e) {
     e.preventDefault();
     const endpoint = `http://www.omdbapi.com/?i=tt3896198&apikey=${process.env.API_KEY}&s=${this.refs.title.value}`;
-    console.log(endpoint);
     return fetch(endpoint)
       .then(blob => blob.json())
       .then(data => this.setState({

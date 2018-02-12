@@ -23622,7 +23622,6 @@ var Search = function (_Component) {
 
       e.preventDefault();
       var endpoint = 'http://www.omdbapi.com/?i=tt3896198&apikey=' + "71a5a8fd" + '&s=' + this.refs.title.value;
-      console.log(endpoint);
       return fetch(endpoint).then(function (blob) {
         return blob.json();
       }).then(function (data) {
